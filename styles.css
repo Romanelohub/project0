@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-color: lightyellow;
+  }
+
+p {
+    color: green;
+}
+
+th {
+    color: brown;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+td {
+    color: orange;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+li {
+    color: blue;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #fl  {
+  float: right;
+   margin: 0 0 0 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
