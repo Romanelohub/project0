@@ -33,6 +33,11 @@ table.center {
     margin-right:auto;
   }
 
+  xmp {
+
+      background-color: lightgreen;
+  }
+
   #fl  {
   float: right;
    margin: 0 0 0 15px;
