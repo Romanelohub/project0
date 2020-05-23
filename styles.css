@@ -38,6 +38,26 @@ table.center {
       background-color: lightgreen;
   }
 
+  xmp:hover {
+
+      background-color: darkorange;
+  }
+
+  a:hover {
+      color: red;
+      font-size: 150%;
+    }
+
+    li::selection {
+        color: red;
+        background-color: black;
+      }
+
+      p::selection {
+          color: red;
+          background-color: black;
+        }
+
   #fl  {
   float: right;
    margin: 0 0 0 15px;
