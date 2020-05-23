@@ -68,3 +68,9 @@ table.center {
       background-color: lightblue;
     }
   }
+
+  @media print {
+    .screen-only {
+        display: none;
+    }
+  }
