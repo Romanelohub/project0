@@ -33,43 +33,49 @@ table.center {
     margin-right:auto;
   }
 
-  xmp {
+xmp {
 
-      background-color: lightgreen;
+    background-color: lightgreen;
   }
 
-  xmp:hover {
+xmp:hover {
 
-      background-color: darkorange;
+    background-color: darkorange;
   }
 
-  a:hover {
-      color: red;
-      font-size: 150%;
-    }
+a:hover {
+    color: red;
+    font-size: 150%;
+  }
 
-    li::selection {
-        color: red;
-        background-color: black;
-      }
+li::selection {
+    color: red;
+    background-color: black;
+  }
 
-      p::selection {
-          color: red;
-          background-color: black;
-        }
+p::selection {
+    color: red;
+    background-color: black;
+  }
 
-  #fl  {
-  float: right;
+#fl  {
+   float: right;
    margin: 0 0 0 15px;
   }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (min-width: 601px) {
+    body {
+      background-color: lightyellow;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
   }
 
-  @media print {
+@media print {
     .screen-only {
         display: none;
     }
