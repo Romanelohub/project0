@@ -1,0 +1,26 @@
+ul {
+  font-size: 14px;
+  color: red; }
+
+ol {
+  font-size: 18px;
+  color: red; }
+
+  th {
+      color: brown;
+      text-align: center;
+      border: 2px dotted black;
+  }
+
+  td {
+      color: orange;
+      text-align: center;
+      border: 2px dotted black;
+  }
+
+  table.center {
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+/*# sourceMappingURL=variables.css.map */

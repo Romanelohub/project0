@@ -10,12 +10,30 @@
                 background-color: teal;
                 border: 2px solid black;
             }
+
+            th {
+                color: brown;
+                text-align: center;
+                border: 2px dotted black;
+            }
+
+            td {
+                color: orange;
+                text-align: center;
+                border: 2px dotted black;
+            }
+
+
+            table.center {
+                margin-left:auto;
+                margin-right:auto;
+              }
         </style>
-        <a href="index.html"align="left">
-          <img src="logo.png" width="30" align="left">Home page</a>
 
     </head>
     <body>
+      <a href="index.html"align="left">
+        <img src="logo.png" width="30" align="left">Home page</a>
       <h1>
         About me
       </h1>
@@ -67,3 +85,51 @@ I like candlelight dinners and long walks on the beach. Very long walks. Lots of
                     </div>
                 </div>
             </div>
+            <table class="center">
+                <tr>
+                    <th>Week 1</th>
+                    <th>Week 2</th>
+                    <th>Week 3</th>
+                    <th>Week 4</th>
+                    <th>Week 5</th>
+                </tr>
+                <tr>
+                    <td><a href="Git.html">Git</a></td>
+                    <td><a href="HTML.html">HTML</a>, <a href="CSS.html">CSS</a></td>
+                    <td>Flask</td>
+                    <td>SQL</td>
+                    <td>ORMs, APIs</td>
+                </tr>
+              </table>
+              <table class="center">
+                  <tr>
+                      <th>Week 6</th>
+                      <th>Week 7</th>
+                      <th>Week 8</th>
+                      <th>Week 9</th>
+                      <th>Week 10</th>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>Front Ends</td>
+                    <td>Django</td>
+                    <td>Testing, CI/CDe</td>
+                    <td>GitHub, Travis CI</td>
+                  </tr>
+              </table>
+              <table class="center">
+                  <tr>
+                    <th>Week 11</th>
+                    <th>Week 12</th>
+                    <th>#</th>
+                    <th>#</th>
+                  </tr>
+                  <tr>
+                    <td>Scalability</td>
+                    <td>Security</td>
+                    <td><a href="SCSS.html">Schedule</a></td>
+                    <td><a href="about.html">About me</a></td>
+                  </tr>
+                </table>
+    </body>
+</html>
